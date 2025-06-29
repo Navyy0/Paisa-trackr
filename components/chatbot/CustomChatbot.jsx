@@ -1,3 +1,4 @@
+// No changes to imports
 "use client";
 
 import { useState } from "react";
@@ -157,17 +158,17 @@ export default function CustomChatbot() {
               <div>
                 💸 <strong>Add expense</strong>:<br />
                 <code className="block bg-gray-100 rounded px-2 py-1 mt-1">
-                  Add expense of ₹500 for groceries called "monthly vegetables" weekly
+                  Add expense of ₹500 for groceries called &quot;monthly vegetables&quot; weekly
                 </code>
               </div>
               <div>
                 🧾 <strong>Scan receipt</strong>:<br />
-                Upload a receipt using <strong>Choose</strong> & click <strong>Scan</strong>
+                Upload a receipt using <strong>Choose</strong> &amp; click <strong>Scan</strong>
               </div>
               <div>
                 💰 <strong>Check balance</strong>:<br />
                 <code className="block bg-gray-100 rounded px-2 py-1 mt-1">
-                  What's my balance?
+                  What&apos;s my balance?
                 </code>
               </div>
               <div>
@@ -179,7 +180,7 @@ export default function CustomChatbot() {
               <div>
                 📊 <strong>Budget status</strong>:<br />
                 <code className="block bg-gray-100 rounded px-2 py-1 mt-1">
-                  What's my current budget status?
+                  What&apos;s my current budget status?
                 </code>
               </div>
               <div>
